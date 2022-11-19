@@ -29,6 +29,6 @@ public class PlayerShooting : MonoBehaviour
     }
 
     private void GetInputs() {
-        shoot = Input.GetButtonDown("Fire");
+        shoot = Input.GetButton("Fire");
     }
 }

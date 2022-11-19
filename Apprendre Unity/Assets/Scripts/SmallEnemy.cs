@@ -2,17 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SmallEnemy : MonoBehaviour
+public class SmallEnemy : MonoBehaviour, IEnemy
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public void Damage() {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
