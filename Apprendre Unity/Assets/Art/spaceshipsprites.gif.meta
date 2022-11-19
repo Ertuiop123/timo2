@@ -766,7 +766,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spaceshipsprites_2: -1300007756
+      spaceshipsprites_8: -576039600
       spaceshipsprites_12: -2084042112
       spaceshipsprites_24: 905806083
       spaceshipsprites_15: -511726735
@@ -798,7 +798,7 @@ TextureImporter:
       spaceshipsprites_4: 2013960644
       spaceshipsprites_23: 1997982605
       spaceshipsprites_31: 2134421522
-      spaceshipsprites_8: -576039600
+      spaceshipsprites_2: -1300007756
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
