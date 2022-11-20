@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: 9c3099ee279e6be45a2f6f69d92e9393
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2102
+        width: 355
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d489a8a6908d114083a9cd455269587
+      internalID: 120073054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2105
+        width: 355
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2fc3b0b5cc7c84397007a0b68c9053
+      internalID: -1406882243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2108
+        width: 354
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8c9e8d760e124469b5816a288dd38a
+      internalID: -1430165646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2112
+        width: 357
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ca88c4096efee46ab9147ceae6d41e
+      internalID: 801409395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_4
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2112
+        width: 357
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b339103acea38674390676618933c13d
+      internalID: -1670850164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1714
+        width: 355
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91628d7db7953a54d8f39be2ef2115b7
+      internalID: -2028003247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_6
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1714
+        width: 355
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5765e06cd1b95e54fab071d4bfd6382f
+      internalID: -1596746036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1717
+        width: 354
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9053a41ed33a04694ac6cde53192e3
+      internalID: -1537804761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1714
+        width: 355
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc8fdd043d0edc4290e0ea5a3b7d8aa
+      internalID: 2038020542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_9
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1717
+        width: 354
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83491bb57c903bd498a8902ae5b1d71a
+      internalID: -586912628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1314
+        width: 355
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e733e42c5b3954fae391cbe254bb60
+      internalID: 472166411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1317
+        width: 355
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546b3aeb4c3a7446b251194077445a3
+      internalID: -1882313150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_12
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1317
+        width: 354
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118f36e4285e0d1418b018dbaf6a91b7
+      internalID: -363027248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_13
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1321
+        width: 355
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bdaf67ce9462d48a0835333f4e782b
+      internalID: 1359435993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_14
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1321
+        width: 354
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a8322eaa9ef0648a7b402a9c6c04ff
+      internalID: 1289720842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 920
+        width: 355
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858a4ef875286bf4f89016298dfcb025
+      internalID: 914188708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_16
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 918
+        width: 355
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ac93df029f9814395ebeb50dc89b7d
+      internalID: -1207856323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_17
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 918
+        width: 354
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c819e67aacc9d1540aa8ec2583a9685f
+      internalID: 1062102110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_18
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 914
+        width: 355
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c7fdaac27fe714ba00b6db7c13f598
+      internalID: -784080903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_19
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 918
+        width: 354
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a5c60d22ad95d4a94294ded8beab8a
+      internalID: -609549795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 355
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61439e22619f9d7429df9c3594612c6b
+      internalID: 1085918203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 517
+        width: 355
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5bccdbf3499884296072b6295e0619
+      internalID: -188595214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_22
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 514
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cee102c0f018f4d8068c92539ca17f
+      internalID: 1804967372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_23
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 514
+        width: 355
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dcc0927589cee4e8252b954a06f11c
+      internalID: 1907039898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_24
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 511
+        width: 357
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c4ad9a0c4b9014492dd5649d6d4ce1
+      internalID: 1398094983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 358
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73c5a4c66a816348914172cffd9a0cb
+      internalID: 366196874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_26
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 108
+        width: 355
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c199382bca9a24e92f368adcd8e550
+      internalID: -2127777311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_27
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 105
+        width: 354
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15454ea529bc4e446abf41402a065d0e
+      internalID: 534199683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-passive-gif_28
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 102
+        width: 355
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae178c4c4f67444f9a4897c0f3237d1
+      internalID: -214870895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      william-robinson-gun-alien-passive-gif_14: 1289720842
+      william-robinson-gun-alien-passive-gif_19: -609549795
+      william-robinson-gun-alien-passive-gif_23: 1907039898
+      william-robinson-gun-alien-passive-gif_6: -1596746036
+      william-robinson-gun-alien-passive-gif_25: 366196874
+      william-robinson-gun-alien-passive-gif_2: -1430165646
+      william-robinson-gun-alien-passive-gif_17: 1062102110
+      william-robinson-gun-alien-passive-gif_9: -586912628
+      william-robinson-gun-alien-passive-gif_21: -188595214
+      william-robinson-gun-alien-passive-gif_26: -2127777311
+      william-robinson-gun-alien-passive-gif_22: 1804967372
+      william-robinson-gun-alien-passive-gif_13: 1359435993
+      william-robinson-gun-alien-passive-gif_11: -1882313150
+      william-robinson-gun-alien-passive-gif_16: -1207856323
+      william-robinson-gun-alien-passive-gif_5: -2028003247
+      william-robinson-gun-alien-passive-gif_4: -1670850164
+      william-robinson-gun-alien-passive-gif_18: -784080903
+      william-robinson-gun-alien-passive-gif_15: 914188708
+      william-robinson-gun-alien-passive-gif_28: -214870895
+      william-robinson-gun-alien-passive-gif_20: 1085918203
+      william-robinson-gun-alien-passive-gif_27: 534199683
+      william-robinson-gun-alien-passive-gif_3: 801409395
+      william-robinson-gun-alien-passive-gif_0: 120073054
+      william-robinson-gun-alien-passive-gif_8: 2038020542
+      william-robinson-gun-alien-passive-gif_10: 472166411
+      william-robinson-gun-alien-passive-gif_7: -1537804761
+      william-robinson-gun-alien-passive-gif_1: -1406882243
+      william-robinson-gun-alien-passive-gif_24: 1398094983
+      william-robinson-gun-alien-passive-gif_12: -363027248
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
