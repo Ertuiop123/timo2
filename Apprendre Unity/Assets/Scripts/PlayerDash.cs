@@ -10,16 +10,17 @@ public class PlayerDash : MonoBehaviour
     private float dashTime;
     public float startDashTime;
     private int direction;
-    public Animator animation;
+    public Animator anime;
     private float animationVariable;
+    public GameObject explosion;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         dashTime = startDashTime;
-    }
+    }   // Update is called once per frame
 
-    // Update is called once per frame
+
     void Update()
     {
 
@@ -28,18 +29,22 @@ public class PlayerDash : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A)))
             {
                 direction = 1;
+                Instantiate(explosion, transform.position, Quaternion.identity);
             }
             else if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKey(KeyCode.D)))
             {
                 direction = 2;
+                Instantiate(explosion, transform.position, Quaternion.identity);
             }
             else if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKey(KeyCode.W)))
             {
                 direction = 3;
+                Instantiate(explosion, transform.position, Quaternion.identity);
             }
             else if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKey(KeyCode.S)))
             {
                 direction = 4;
+                Instantiate(explosion, transform.position, Quaternion.identity);
             }
         }
         else
@@ -49,7 +54,7 @@ public class PlayerDash : MonoBehaviour
                 direction = 0;
                 dashTime = startDashTime;
                 rb.velocity = Vector2.zero;
-                animation.SetBool("Dash", false);
+                anime.SetBool("Dash", false);
             }
             else
             {
@@ -57,22 +62,22 @@ public class PlayerDash : MonoBehaviour
                 if (direction == 1)
                 {
                     rb.velocity = Vector2.left * dashSpeed;
-                    animation.SetBool("Dash", true);
+                    anime.SetBool("Dash", true);
                 }
                 else if (direction == 2)
                 {
                     rb.velocity = Vector2.right * dashSpeed;
-                    animation.SetBool("Dash", true);
+                    anime.SetBool("Dash", true);
                 }
                 else if (direction == 3)
                 {
                     rb.velocity = Vector2.up * dashSpeed;
-                    animation.SetBool("Dash", true);
+                    anime.SetBool("Dash", true);
                 }
                 else if (direction == 4)
                 {
                     rb.velocity = Vector2.down * dashSpeed;
-                    animation.SetBool("Dash", true);
+                    anime.SetBool("Dash", true);
                 }
             }
         }

@@ -533,3 +533,4 @@ MonoBehaviour:
   dashSpeed: 50
   startDashTime: 0.1
   animation: {fileID: 715467803}
+  explosion: {fileID: 9041873846180624638, guid: 4d486b7ff8245d74795e3c95498347dd, type: 3}
