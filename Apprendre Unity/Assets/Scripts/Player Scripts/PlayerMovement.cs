@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D rb;
     Vector2 movements;
     Vector2 referenceVelocity;
+    public GameObject colliderCheck;
+    public ContactFilter2D mask;
 
     private void Awake() {
         rb = GetComponent<Rigidbody2D>();

@@ -344,8 +344,8 @@ GameObject:
   - component: {fileID: 715467801}
   - component: {fileID: 715467797}
   - component: {fileID: 715467802}
-  - component: {fileID: 715467803}
   - component: {fileID: 715467804}
+  - component: {fileID: 715467803}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -368,6 +368,21 @@ MonoBehaviour:
   speed: 4
   smoothMovementIntensity: 0.078
   animator: {fileID: 715467803}
+  colliderCheck: {fileID: 0}
+  mask:
+    useTriggers: 1
+    useLayerMask: 1
+    useDepth: 1
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 2147483647
+    minDepth: 0
+    maxDepth: 2
+    minNormalAngle: 0
+    maxNormalAngle: 0
 --- !u!61 &715467798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -532,5 +547,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dashSpeed: 50
   startDashTime: 0.1
-  animation: {fileID: 715467803}
+  anime: {fileID: 0}
   explosion: {fileID: 9041873846180624638, guid: 4d486b7ff8245d74795e3c95498347dd, type: 3}
