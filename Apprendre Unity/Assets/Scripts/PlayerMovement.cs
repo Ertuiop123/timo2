@@ -7,9 +7,7 @@ public class PlayerMovement : MonoBehaviour {
     public float speed;
     [Range(0, .3f)] public float smoothMovementIntensity;
 
-    float targetStateValue = 0;
     float animationState = 0;
-    float currentAnimationState = 0;
     public Animator animator;
     Rigidbody2D rb;
     Vector2 movements;
@@ -27,7 +25,7 @@ public class PlayerMovement : MonoBehaviour {
     private void SetAnimationParamaters() {
         // animationState = Mathf.SmoothDamp(animationState, targetStateValue, ref currentAnimationState, smoothMovementIntensity);
         animator.SetFloat("state", animationState);
-        Debug.Log(animationState);
+
     }
 
     void FixedUpdate() {
