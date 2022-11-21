@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 8068304969052998503}
   speed: 10
+  damage: 1
   lifeTime: 1.5
 --- !u!95 &8880612303376310830
 Animator:
