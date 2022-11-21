@@ -7,6 +7,7 @@ public class BasicMissile : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float speed;
+    public float damage;
     public float lifeTime = 3f;
 
     private void Start() {
@@ -14,6 +15,7 @@ public class BasicMissile : MonoBehaviour
 
         StartCoroutine(WaitThenDie());
     }
+
     IEnumerator WaitThenDie()
     {
         yield return new WaitForSeconds(lifeTime);
@@ -25,7 +27,9 @@ public class BasicMissile : MonoBehaviour
             Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("Enemy")) {
-
+            IEnemy enemy = collision.gameObject.GetComponent<IEnemy>();
+            if (enemy != null) enemy.Damage(damage);
+            Destroy(gameObject);
         }
     }
     
