@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4b9abfa9371bf438a25a4c02b89da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 6
   smoothMovementIntensity: 0.078
   animator: {fileID: 715467803}
   mask:
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootObject: {fileID: 8068304969052998502, guid: 9dae7c4572965744f91163bc3021ba7d, type: 3}
   shootPoint: {fileID: 322700843}
-  shootRate: 1
+  shootRate: 0.8
 --- !u!95 &715467803
 Animator:
   serializedVersion: 4
@@ -1074,11 +1074,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2776737965088645648, guid: 4a4d1a9b5e01aaf448afb02edc0b9fab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.28162
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 2776737965088645648, guid: 4a4d1a9b5e01aaf448afb02edc0b9fab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.559902
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 2776737965088645648, guid: 4a4d1a9b5e01aaf448afb02edc0b9fab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1473,11 +1473,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2776737965088645648, guid: 4a4d1a9b5e01aaf448afb02edc0b9fab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.427404
+      value: -4.99
       objectReference: {fileID: 0}
     - target: {fileID: 2776737965088645648, guid: 4a4d1a9b5e01aaf448afb02edc0b9fab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.332806
+      value: 4.99
       objectReference: {fileID: 0}
     - target: {fileID: 2776737965088645648, guid: 4a4d1a9b5e01aaf448afb02edc0b9fab, type: 3}
       propertyPath: m_LocalPosition.z

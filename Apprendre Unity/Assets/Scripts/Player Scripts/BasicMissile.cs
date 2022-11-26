@@ -32,6 +32,17 @@ public class BasicMissile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.CompareTag("Boundaries")) {
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Enemy")) {
+            IEnemy enemy = collision.gameObject.GetComponent<IEnemy>();
+            if (enemy != null) enemy.Damage(damage);
+            Destroy(gameObject);
+        }
+    }
+
 
 }
