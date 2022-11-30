@@ -12,11 +12,8 @@ GameObject:
   - component: {fileID: 5137047194282508791}
   - component: {fileID: 7253430708037873389}
   - component: {fileID: 3171070205878637913}
-
   - component: {fileID: 4687250861258960282}
-
   - component: {fileID: 4815247700947156254}
-
   m_Layer: 0
   m_Name: Small Enemy
   m_TagString: Enemy
@@ -128,21 +125,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
-
 --- !u!95 &4687250861258960282
 Animator:
   serializedVersion: 4
-
---- !u!114 &4815247700947156254
-MonoBehaviour:
-
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3975411684856838146}
   m_Enabled: 1
-
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2fdd447d697b4e14fb4f9c9a02ab3473, type: 2}
   m_CullingMode: 0
@@ -154,16 +145,23 @@ MonoBehaviour:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
-
+--- !u!114 &4815247700947156254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3975411684856838146}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41821d6a5c7c4e544be15578d6fccee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPosition: {x: 18.5, y: 7}
-  yMinimum: -2
-  colliderRadius: 1.5
+  maxPosition: {x: 18.5, y: 8}
+  yMinimum: -3
+  colliderRadius: 1
   moveRate: 6
-  moveSpeed: 30
+  moveSpeed: 4
   health: 2
+  moveRange: 1
   reserverPrefab: {fileID: 1119060258221278126, guid: 1c63c560d673fd54491a9532e02206c5, type: 3}
-
