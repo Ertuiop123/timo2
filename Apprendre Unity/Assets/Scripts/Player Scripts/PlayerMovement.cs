@@ -39,6 +39,8 @@ public class PlayerMovement : MonoBehaviour {
 
         animationState = x;
 
+        gameObject.SetActive(!gameObject.activeSelf);
+
         movements = new Vector2(x, y).normalized * Time.fixedDeltaTime * speed * 100;
     }
 
