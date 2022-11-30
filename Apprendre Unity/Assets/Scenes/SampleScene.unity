@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4b9abfa9371bf438a25a4c02b89da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9
+  speed: 1
   smoothMovementIntensity: 0.078
   animator: {fileID: 715467803}
   mask:
