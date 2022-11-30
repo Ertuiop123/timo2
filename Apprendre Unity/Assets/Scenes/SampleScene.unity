@@ -550,8 +550,6 @@ MonoBehaviour:
   startDashTime: 0.1
   anime: {fileID: 0}
   explosion: {fileID: 9041873846180624638, guid: 4d486b7ff8245d74795e3c95498347dd, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1621783620
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,4 +5958,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5860188283571681683}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
