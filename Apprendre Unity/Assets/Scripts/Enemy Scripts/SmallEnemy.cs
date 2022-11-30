@@ -20,7 +20,7 @@ public class SmallEnemy : MonoBehaviour, IEnemy
 
     void Start() {
         targetPos = transform.position;
-        moveTimer = moveRate;
+        moveTimer = moveRate + Random.Range(-moveRate / 2, moveRate / 2);
         currentHealth = health;
     }
 
@@ -30,31 +30,34 @@ public class SmallEnemy : MonoBehaviour, IEnemy
     }
 
     public void Die() {
-        Destroy(reserverCol.gameObject);
+        if (reserverCol != null) Destroy(reserverCol.gameObject);
         Destroy(gameObject);
     }
 
     public void Move() {
         moveTimer = moveRate;
         targetPos = GetValidRandomPos();
-        if (targetPos == Vector2.zero) targetPos = transform.position;
     }
 
     private Vector2 GetValidRandomPos() {
+        if (reserverCol != null) Destroy(reserverCol.gameObject);
+
         for (int i = 0; i < 5; i++) {
             Vector2 randomPos = new(Random.Range(-maxPosition.x, maxPosition.x), Random.Range(yMinimum, maxPosition.y));
             if ((randomPos - new Vector2(transform.position.x, transform.position.y)).SqrMagnitude() > moveRange)
                 randomPos = (randomPos - new Vector2(transform.position.x, transform.position.y)).normalized * moveRange;
 
-            // it can select itself - error
-            if (Physics2D.OverlapCircle(randomPos, colliderRadius) == null) {
+            // - error - it can hit itself and something else while only returning this which ignores the other collider
+            Collider2D checkZone = Physics2D.OverlapCircle(randomPos, colliderRadius);
+
+            if (checkZone == null || checkZone == this) {
                 reserverCol = Instantiate(reserverPrefab, randomPos, Quaternion.identity).GetComponent<CircleCollider2D>();
                 reserverCol.radius = colliderRadius;
                 return randomPos;
             }
         }
 
-        return Vector2.zero;
+        return transform.position;
     }
 
     private void Update() {
