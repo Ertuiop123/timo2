@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D rb;
     Vector2 movements;
     Vector2 referenceVelocity;
-    public GameObject colliderCheck;
     public ContactFilter2D mask;
     public GameObject shop;
 
@@ -37,6 +36,8 @@ public class PlayerMovement : MonoBehaviour {
 
 
         animationState = x;
+
+        gameObject.SetActive(!gameObject.activeSelf);
 
         movements = new Vector2(x, y).normalized * Time.fixedDeltaTime * speed * 100;
 
