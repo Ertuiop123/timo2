@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9c3099ee279e6be45a2f6f69d92e9393
+guid: 74a3d503f3538e5468e805fbce3523ac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_0
+      name: william-robinson-gun-alien-firing-animation (1) 1_20
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2102
-        width: 355
-        height: 264
+        x: 1972
+        y: 521
+        width: 10
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d489a8a6908d114083a9cd455269587
-      internalID: 120073054
+      spriteID: 5983a9d38e1d4b7488fbb2c19d13903b
+      internalID: 917714576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_1
+      name: william-robinson-gun-alien-firing-animation (1) 1_26
       rect:
         serializedVersion: 2
-        x: 415
-        y: 2105
-        width: 355
-        height: 263
+        x: 54
+        y: 21
+        width: 34
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,19 +140,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d2fc3b0b5cc7c84397007a0b68c9053
-      internalID: -1406882243
+      spriteID: 6385772f87c0b09448dbd8486eff0740
+      internalID: -597437724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_2
+      name: william-robinson-gun-alien-firing-animation (1) 1_27
       rect:
         serializedVersion: 2
-        x: 815
-        y: 2108
-        width: 354
+        x: 466
+        y: 28
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f1ab4f55c6f414e9a3277ab8ac46c1
+      internalID: 1107609961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 18
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee01fc387d120214bb421f811008d157
+      internalID: 562946175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1706
+        width: 353
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c700059c27ed2a4bb714e2817c89140
+      internalID: -975013526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1709
+        width: 353
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3089ed2326a3a654095bfd6caa167880
+      internalID: 2136817134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1712
+        width: 356
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e18be95008c77c429d6f851e05e96c8
+      internalID: 1048139319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_3
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1715
+        width: 353
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf748e47f49637c4e9e60eecaa6429b2
+      internalID: 650558966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_4
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1715
+        width: 353
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8383bd985d91384f827a45ed1d3948a
+      internalID: 2089953412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1318
+        width: 353
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651f5ee9ab9651a40976b6cf5f1f369f
+      internalID: 1106501769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1315
+        width: 353
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -161,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8c9e8d760e124469b5816a288dd38a
-      internalID: -1430165646
+      spriteID: e1977e9a5f3279244812d891881529a8
+      internalID: 1092608347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_3
+      name: william-robinson-gun-alien-firing-animation (1) 1_7
       rect:
         serializedVersion: 2
-        x: 1215
-        y: 2112
-        width: 357
-        height: 256
+        x: 816
+        y: 1318
+        width: 353
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +350,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0ca88c4096efee46ab9147ceae6d41e
-      internalID: 801409395
+      spriteID: a926e9f1fd7d6a14baf5b0f7558abea2
+      internalID: -769586490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_4
+      name: william-robinson-gun-alien-firing-animation (1) 1_8
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1315
+        width: 353
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2916a89c2a7626044bf4b562fb6e7ddc
+      internalID: -768591560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_9
       rect:
         serializedVersion: 2
         x: 1616
-        y: 2112
-        width: 357
-        height: 256
+        y: 1318
+        width: 353
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b339103acea38674390676618933c13d
-      internalID: -1670850164
+      spriteID: 4ecccc7b4074b7247ad8d32e9c6e6287
+      internalID: -1229286890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_5
+      name: william-robinson-gun-alien-firing-animation (1) 1_10
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1714
-        width: 355
-        height: 258
+        x: 16
+        y: 918
+        width: 353
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91628d7db7953a54d8f39be2ef2115b7
-      internalID: -2028003247
+      spriteID: 4a3cab985fe052045b40e72ba92b7b8c
+      internalID: 2104284625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_6
+      name: william-robinson-gun-alien-firing-animation (1) 1_11
       rect:
         serializedVersion: 2
-        x: 415
-        y: 1714
-        width: 355
-        height: 258
+        x: 416
+        y: 921
+        width: 353
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,19 +434,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5765e06cd1b95e54fab071d4bfd6382f
-      internalID: -1596746036
+      spriteID: 801299c59c2294f4c88e20fcc8895d48
+      internalID: 1049928816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_7
+      name: william-robinson-gun-alien-firing-animation (1) 1_12
       rect:
         serializedVersion: 2
-        x: 815
-        y: 1717
-        width: 354
+        x: 816
+        y: 925
+        width: 353
         height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee9053a41ed33a04694ac6cde53192e3
-      internalID: -1537804761
+      spriteID: 3401753a6e2a5bb42955e329de230567
+      internalID: -1456945558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_8
+      name: william-robinson-gun-alien-firing-animation (1) 1_13
       rect:
         serializedVersion: 2
-        x: 1215
-        y: 1714
-        width: 355
-        height: 262
+        x: 1216
+        y: 921
+        width: 353
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,230 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dc8fdd043d0edc4290e0ea5a3b7d8aa
-      internalID: 2038020542
+      spriteID: 75470d4c92b4d0b4082a0be8f7369347
+      internalID: -1115416780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_9
-      rect:
-        serializedVersion: 2
-        x: 1616
-        y: 1717
-        width: 354
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83491bb57c903bd498a8902ae5b1d71a
-      internalID: -586912628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_10
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 1314
-        width: 355
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9e733e42c5b3954fae391cbe254bb60
-      internalID: 472166411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_11
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 1317
-        width: 355
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3546b3aeb4c3a7446b251194077445a3
-      internalID: -1882313150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_12
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 1317
-        width: 354
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 118f36e4285e0d1418b018dbaf6a91b7
-      internalID: -363027248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_13
-      rect:
-        serializedVersion: 2
-        x: 1215
-        y: 1321
-        width: 355
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64bdaf67ce9462d48a0835333f4e782b
-      internalID: 1359435993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_14
-      rect:
-        serializedVersion: 2
-        x: 1616
-        y: 1321
-        width: 354
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0a8322eaa9ef0648a7b402a9c6c04ff
-      internalID: 1289720842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_15
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 920
-        width: 355
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 858a4ef875286bf4f89016298dfcb025
-      internalID: 914188708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_16
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 918
-        width: 355
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28ac93df029f9814395ebeb50dc89b7d
-      internalID: -1207856323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_17
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 918
-        width: 354
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c819e67aacc9d1540aa8ec2583a9685f
-      internalID: 1062102110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_18
-      rect:
-        serializedVersion: 2
-        x: 1215
-        y: 914
-        width: 355
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13c7fdaac27fe714ba00b6db7c13f598
-      internalID: -784080903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_19
+      name: william-robinson-gun-alien-firing-animation (1) 1_14
       rect:
         serializedVersion: 2
         x: 1616
         y: 918
-        width: 354
-        height: 261
+        width: 353
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01a5c60d22ad95d4a94294ded8beab8a
-      internalID: -609549795
+      spriteID: 875172a35e59ca04986e084a079f8347
+      internalID: -1534200440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_20
+      name: william-robinson-gun-alien-firing-animation (1) 1_15
       rect:
         serializedVersion: 2
-        x: 15
-        y: 514
-        width: 355
-        height: 262
+        x: 16
+        y: 521
+        width: 353
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,19 +518,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61439e22619f9d7429df9c3594612c6b
-      internalID: 1085918203
+      spriteID: f8fdebd1d5398094d8b89d6c567c5388
+      internalID: -932694529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_21
+      name: william-robinson-gun-alien-firing-animation (1) 1_16
       rect:
         serializedVersion: 2
-        x: 415
-        y: 517
-        width: 355
+        x: 416
+        y: 525
+        width: 353
         height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -560,20 +539,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d5bccdbf3499884296072b6295e0619
-      internalID: -188595214
+      spriteID: d126a7e5614846246aa08c9757c6b649
+      internalID: -44800806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_22
+      name: william-robinson-gun-alien-firing-animation (1) 1_17
       rect:
         serializedVersion: 2
-        x: 815
-        y: 514
-        width: 354
-        height: 258
+        x: 816
+        y: 525
+        width: 353
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +560,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4cee102c0f018f4d8068c92539ca17f
-      internalID: 1804967372
+      spriteID: 825dd17c013a87842be9dc2fa1af1378
+      internalID: -477216066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_23
+      name: william-robinson-gun-alien-firing-animation (1) 1_18
       rect:
         serializedVersion: 2
-        x: 1215
-        y: 514
-        width: 355
-        height: 258
+        x: 1216
+        y: 525
+        width: 353
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +581,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4dcc0927589cee4e8252b954a06f11c
-      internalID: 1907039898
+      spriteID: 0fc25d2e5e49ad24fbc4849711c9efcb
+      internalID: 1764376928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_24
+      name: william-robinson-gun-alien-firing-animation (1) 1_19
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 406
+        width: 378
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90e568b81f97dc43b758bfbe80ccfbd
+      internalID: 1447717633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 25
+        width: 353
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d0dec107d4f542aa3ae63f351971d
+      internalID: -1142679979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 37
+        width: 353
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25e915742ff7d43aa3c5f318cb2e34
+      internalID: 2011342888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_23
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 115
+        width: 353
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86befb268db47541a75217df2582560
+      internalID: -672390433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_24
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 115
+        width: 353
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48cb97b30dbb3a408b2b17c0c5b9424
+      internalID: 1944507550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: william-robinson-gun-alien-firing-animation (1) 1_25
       rect:
         serializedVersion: 2
         x: 1616
-        y: 511
-        width: 357
-        height: 258
+        y: 109
+        width: 353
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,92 +707,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23c4ad9a0c4b9014492dd5649d6d4ce1
-      internalID: 1398094983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_25
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 111
-        width: 358
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f73c5a4c66a816348914172cffd9a0cb
-      internalID: 366196874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_26
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 108
-        width: 355
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85c199382bca9a24e92f368adcd8e550
-      internalID: -2127777311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_27
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 105
-        width: 354
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15454ea529bc4e446abf41402a065d0e
-      internalID: 534199683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: william-robinson-gun-alien-passive-gif_28
-      rect:
-        serializedVersion: 2
-        x: 1215
-        y: 102
-        width: 355
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ae178c4c4f67444f9a4897c0f3237d1
-      internalID: -214870895
+      spriteID: 4bb06827216a8414a85771b51e4d6cb9
+      internalID: -1827304504
       vertices: []
       indices: 
       edges: []
@@ -724,35 +724,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      william-robinson-gun-alien-passive-gif_14: 1289720842
-      william-robinson-gun-alien-passive-gif_19: -609549795
-      william-robinson-gun-alien-passive-gif_23: 1907039898
-      william-robinson-gun-alien-passive-gif_6: -1596746036
-      william-robinson-gun-alien-passive-gif_25: 366196874
-      william-robinson-gun-alien-passive-gif_2: -1430165646
-      william-robinson-gun-alien-passive-gif_17: 1062102110
-      william-robinson-gun-alien-passive-gif_9: -586912628
-      william-robinson-gun-alien-passive-gif_21: -188595214
-      william-robinson-gun-alien-passive-gif_26: -2127777311
-      william-robinson-gun-alien-passive-gif_22: 1804967372
-      william-robinson-gun-alien-passive-gif_13: 1359435993
-      william-robinson-gun-alien-passive-gif_11: -1882313150
-      william-robinson-gun-alien-passive-gif_16: -1207856323
-      william-robinson-gun-alien-passive-gif_5: -2028003247
-      william-robinson-gun-alien-passive-gif_4: -1670850164
-      william-robinson-gun-alien-passive-gif_18: -784080903
-      william-robinson-gun-alien-passive-gif_15: 914188708
-      william-robinson-gun-alien-passive-gif_28: -214870895
-      william-robinson-gun-alien-passive-gif_20: 1085918203
-      william-robinson-gun-alien-passive-gif_27: 534199683
-      william-robinson-gun-alien-passive-gif_3: 801409395
-      william-robinson-gun-alien-passive-gif_0: 120073054
-      william-robinson-gun-alien-passive-gif_8: 2038020542
-      william-robinson-gun-alien-passive-gif_10: 472166411
-      william-robinson-gun-alien-passive-gif_7: -1537804761
-      william-robinson-gun-alien-passive-gif_1: -1406882243
-      william-robinson-gun-alien-passive-gif_24: 1398094983
-      william-robinson-gun-alien-passive-gif_12: -363027248
+      william-robinson-gun-alien-firing-animation (1) 1_20: 917714576
+      william-robinson-gun-alien-firing-animation (1) 1_16: -44800806
+      william-robinson-gun-alien-firing-animation (1) 1_26: -597437724
+      william-robinson-gun-alien-firing-animation (1) 1_7: -769586490
+      william-robinson-gun-alien-firing-animation (1) 1_10: 2104284625
+      william-robinson-gun-alien-firing-animation (1) 1_14: -1534200440
+      william-robinson-gun-alien-firing-animation (1) 1_21: -1142679979
+      william-robinson-gun-alien-firing-animation (1) 1_25: -1827304504
+      william-robinson-gun-alien-firing-animation (1) 1_28: 562946175
+      william-robinson-gun-alien-firing-animation (1) 1_0: -975013526
+      william-robinson-gun-alien-firing-animation (1) 1_15: -932694529
+      william-robinson-gun-alien-firing-animation (1) 1_4: 2089953412
+      william-robinson-gun-alien-firing-animation (1) 1_1: 2136817134
+      william-robinson-gun-alien-firing-animation (1) 1_18: 1764376928
+      william-robinson-gun-alien-firing-animation (1) 1_3: 650558966
+      william-robinson-gun-alien-firing-animation (1) 1_5: 1106501769
+      william-robinson-gun-alien-firing-animation (1) 1_9: -1229286890
+      william-robinson-gun-alien-firing-animation (1) 1_23: -672390433
+      william-robinson-gun-alien-firing-animation (1) 1_27: 1107609961
+      william-robinson-gun-alien-firing-animation (1) 1_17: -477216066
+      william-robinson-gun-alien-firing-animation (1) 1_13: -1115416780
+      william-robinson-gun-alien-firing-animation (1) 1_12: -1456945558
+      william-robinson-gun-alien-firing-animation (1) 1_19: 1447717633
+      william-robinson-gun-alien-firing-animation (1) 1_22: 2011342888
+      william-robinson-gun-alien-firing-animation (1) 1_11: 1049928816
+      william-robinson-gun-alien-firing-animation (1) 1_6: 1092608347
+      william-robinson-gun-alien-firing-animation (1) 1_24: 1944507550
+      william-robinson-gun-alien-firing-animation (1) 1_8: -768591560
+      william-robinson-gun-alien-firing-animation (1) 1_2: 1048139319
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
